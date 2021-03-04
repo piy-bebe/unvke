@@ -1,0 +1,121 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Consolas, 'Montserrat', sans-serif;
+}
+.title-section {
+  font-size: 42px;
+  padding: 70px;
+}
+.title-section > span {
+  color:rgb(216, 33, 73);
+}
+.color-white {
+  color: #fff;
+}
+
+/* + + + SECTION HEADER + + + */
+.header {
+  display: flex;
+  border: 40px solid rgb(216, 33, 73);
+  height: 100vh;
+}
+.header > .header-title {
+  margin: 15% auto;
+  width: 800px;
+}
+.header > .header-title > h1 {
+  font-size: 84px;
+  font-weight: 100;
+}
+.header > .header-title > h1 > span {
+  color: rgb(216, 33, 73);
+}
+/* BUTTON */
+.header > .header-title > button {
+  background-color: #fff;
+  border: 2px solid rgb(216, 33, 73);
+  font-size: 24px;
+  padding: 20px 40px;
+  margin-top: 30px;
+  transition: 0.2s;
+}
+.header > .header-title > button:hover {
+  background-color: rgb(216, 33, 73);
+  color: white;
+}
+.header > .header-title > button:focus {
+  outline: 0;
+  border: 2px dashed rgb(216, 33, 73);
+}
+
+/* + + + SECTION CATALOG + + + */
+.catalog {
+  margin-top: 60px;
+  text-align: center;
+}
+.catalog > .catalog-container {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.catalog > .catalog-container > .catalog-item {
+  text-align: center;
+  width: 300px;
+  border: 2px solid rgb(216, 33, 73);
+  padding: 40px;
+  margin: 30px 25px;
+  transition: 0.2s;
+}
+.catalog .catalog-item:hover {
+  transform: scale(1.1);
+  background-color: rgb(216, 33, 73);
+  color: white;
+}
+.catalog .catalog-item:hover > .catalog-image {
+    color: white;
+}
+
+
+.catalog .catalog-image {
+  font-size: 62px;
+  margin-bottom: 30px;
+  color: rgb(216, 33, 73);
+  font-weight: bold;
+}
+.catalog .catalog-title {
+  margin-bottom: 15px;
+}
+
+/* + + + SECTION ADVANTAGE + + + */
+.advantage {
+  text-align: center;
+  margin-top: 90px;
+  background-color: rgb(216, 33, 73);
+}
+.advantage .advantage-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.advantage .advantage-item {
+  color: white;
+  margin: 20px;
+  padding: 40px 20px;
+  border: 1px solid white;
+}
+.advantage .advantage-item ion-icon {
+  margin-bottom: 21px;
+  font-size: 62px;
+}
+.advantage .advantage-item p {
+  font-size: 24px;
+}
